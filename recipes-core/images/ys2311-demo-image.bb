@@ -16,3 +16,4 @@ EOF
 }
 
 ROOTFS_POSTPROCESS_COMMAND:append = " do_project_magic;"
+TOOLCHAIN_HOST_TASK:append = " nativesdk-sca-tools"
