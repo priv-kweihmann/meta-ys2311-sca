@@ -8,3 +8,5 @@ config=$(< /etc/my-product.config)
 if grep "debug" "$config"; then
     echo "Running in debug config"
 fi
+
+if foo; echo "Foo command failed"; fi
