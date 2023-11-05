@@ -17,6 +17,7 @@ ENV uid 1000
 ENV gid 1000
 
 ARG SDKINSTALLER=sdk.sh
+ARG ENTRY="entry.sh"
 
 RUN apt-get update \
 	&& apt-get install -y ca-certificates \
@@ -84,7 +85,7 @@ RUN /sdk.sh -y -d /opt/sdk \
 	&& rm /sdk.sh
 
 # Change the entry point to the adduser script
-COPY --chmod=555 entry.sh /
+COPY --chmod=555 ${ENTRY} /
 
 # Init sdk at every run in profile
 RUN groupadd --gid "${gid}" "${group}" && \
@@ -92,4 +93,5 @@ RUN groupadd --gid "${gid}" "${group}" && \
 	chown -R ${user}:${group} /home/${user} && \
 	echo . /opt/sdk/environment-setup-* >/home/${user}/.profile
 
-ENTRYPOINT ["/entry.sh"]
+ENV ENTRYPOINT="/${ENTRY}"
+ENTRYPOINT $ENTRYPOINT
