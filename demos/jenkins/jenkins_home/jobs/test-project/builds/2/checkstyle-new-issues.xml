@@ -1,0 +1,1389 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<analysisReport plugin="analysis-model-api@11.13.0">
+  <id>-</id>
+  <name>-</name>
+  <originReportFile>-</originReportFile>
+  <subReports>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-image-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-image-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-image-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-image-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/3rd-party-package-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/busybox-1.36.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/libxml2-2.11.5.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-anytree-2.11.1.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-runall-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-z3-4.12.2.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-image-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+    <analysisReport>
+      <id>checkstyle</id>
+      <name>CheckStyle</name>
+      <originReportFile>/var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-service-1.0.xml</originReportFile>
+      <subReports/>
+      <elements class="linked-hash-set"/>
+      <infoMessages/>
+      <errorMessages/>
+      <countersByKey/>
+      <duplicatesSize>0</duplicatesSize>
+    </analysisReport>
+  </subReports>
+  <elements class="linked-hash-set"/>
+  <infoMessages>
+    <string>Ignoring &apos;aggregatingResults&apos; and ID &apos;null&apos; since only a single tool is defined.</string>
+    <string>Searching for all files in &apos;/var/jenkins_home/workspace/test-project&apos; that match the pattern &apos;sca/*/checkstyle/*.xml&apos;</string>
+    <string>Traversing of symbolic links: enabled</string>
+    <string>-&gt; found 95 files</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 73 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 95 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-image-1.0.xml</string>
+    <string>-&gt; found 150 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bashate/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-image-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/bitbake/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 58 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 34 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-image-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/checkbashism/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 35 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 513 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/cppcheck/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 2 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 150 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 453 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 7 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 3621 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 245 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 869 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 3 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-image-1.0.xml</string>
+    <string>-&gt; found 346 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/shellcheck/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/3rd-party-package-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/busybox-1.36.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/busybox-1.36.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/libxml2-2.11.5.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/libxml2-2.11.5.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-z3-4.12.2.xml</string>
+    <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-image-1.0.xml</string>
+    <string>-&gt; found 10 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+    <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-service-1.0.xml</string>
+    <string>-&gt; found 3 issues (skipped 0 duplicates)</string>
+    <string>Successfully processed file &apos;sca/systemdlint/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+    <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+    <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+    <string>-&gt; no SCM found</string>
+    <string>Resolving file names for all issues in workspace &apos;/var/jenkins_home/workspace/test-project&apos;</string>
+    <string>-&gt; resolved paths in source directory (0 found, 2867 not found)</string>
+    <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+    <string>-&gt; resolved module names for 6699 issues</string>
+    <string>Resolving package names (or namespaces) by parsing the affected files</string>
+    <string>-&gt; resolved package names of 2867 affected files</string>
+    <string>No filter has been set, publishing all 6699 issues</string>
+    <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+    <string>-&gt; created fingerprints for 0 issues (skipped 6699 issues)</string>
+    <string>Copying affected files to Jenkins&apos; build folder &apos;/var/jenkins_home/jobs/test-project/builds/2/files-with-issues&apos;</string>
+    <string>-&gt; 0 copied, 0 not in workspace, 6699 not-found, 0 with I/O error</string>
+    <string>Repository miner is not configured, skipping repository mining</string>
+    <string>Reference build recorder is not configured</string>
+    <string>Obtaining reference build from same job (test-project)</string>
+    <string>Using reference build &apos;test-project #1&apos; to compute new, fixed, and outstanding issues</string>
+  </infoMessages>
+  <errorMessages>
+    <string>Can&apos;t create fingerprints for some files:</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/applets/busybox.mksuid&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/shell/ash_test/ash-misc/nommu3.tests&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+    <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/examples/shutdown-1.0/script/do_shutdown&apos; file not found</string>
+    <string>  ... skipped logging of 6679 additional errors ...</string>
+  </errorMessages>
+  <countersByKey/>
+  <duplicatesSize>0</duplicatesSize>
+</analysisReport>

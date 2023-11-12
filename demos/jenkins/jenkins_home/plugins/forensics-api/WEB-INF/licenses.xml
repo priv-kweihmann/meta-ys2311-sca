@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<l:dependencies xmlns:l='licenses' groupId='io.jenkins.plugins' artifactId='forensics-api' version='2.3.0'><l:dependency name='Forensics API Plugin' groupId='io.jenkins.plugins' artifactId='forensics-api' version='2.3.0' url='https://github.com/jenkinsci/forensics-api-plugin'><l:description>Defines an API for Jenkins to mine and analyze data from a source code repository.</l:description><l:license name='MIT license' url=''/></l:dependency></l:dependencies>

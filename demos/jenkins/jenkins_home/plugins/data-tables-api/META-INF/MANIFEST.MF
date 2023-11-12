@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 21
+Specification-Title: DataTables.net API Plugin
+Specification-Version: 1.13
+Implementation-Title: DataTables.net API Plugin
+Implementation-Version: 1.13.6-5
+Group-Id: io.jenkins.plugins
+Artifact-Id: data-tables-api
+Short-Name: data-tables-api
+Long-Name: DataTables.net API Plugin
+Url: https://github.com/jenkinsci/data-tables-api-plugin
+Plugin-Version: 1.13.6-5
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: bootstrap5-api:5.3.2-1,commons-lang3-api:3.13.0-62.
+ v7d18e55f51e2,commons-text-api:1.10.0-78.v3e7b_ea_d5a_fe1,font-awesome-
+ api:6.4.2-1,jquery3-api:3.7.1-1,plugin-util-api:3.4.0,jackson2-api:2.15
+ .2-350.v0c2f3f8fc595
+Plugin-Developers: Ullrich Hafner:uhafner:ullrich.hafner@gmail.com
+Support-Dynamic-Loading: true
+Plugin-License-Name: MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/data-tables-a
+ pi-plugin.git
+Plugin-ScmTag: v1.13.6-5
+Plugin-ScmUrl: https://github.com/jenkinsci/data-tables-api-plugin
+Plugin-GitHash: ac7f7b1e76a2a256a7b79869ffcfac543c291c9e
+Implementation-Build: ac7f7b1e76a2a256a7b79869ffcfac543c291c9e
+

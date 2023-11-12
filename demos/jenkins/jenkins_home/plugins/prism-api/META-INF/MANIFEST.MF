@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Prism API Plugin
+Specification-Version: 1.29
+Implementation-Title: Prism API Plugin
+Implementation-Version: 1.29.0-8
+Group-Id: io.jenkins.plugins
+Artifact-Id: prism-api
+Short-Name: prism-api
+Long-Name: Prism API Plugin
+Url: https://github.com/jenkinsci/prism-api-plugin
+Plugin-Version: 1.29.0-8
+Hudson-Version: 2.387.3
+Jenkins-Version: 2.387.3
+Plugin-Dependencies: bootstrap5-api:5.2.2-4,commons-lang3-api:3.12.0-36.
+ vd97de6465d5b_,commons-text-api:1.10.0-36.vc008c8fcda_7b_,font-awesome-
+ api:6.3.0-2,plugin-util-api:3.2.1,antisamy-markup-formatter:159.v25b_c6
+ 7cd35fb_
+Plugin-Developers: Ullrich Hafner:uhafner:ullrich.hafner@gmail.com
+Plugin-License-Name: MIT license
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/prism-api-plu
+ gin.git
+Plugin-ScmTag: v1.29.0-8
+Plugin-ScmUrl: https://github.com/jenkinsci/prism-api-plugin
+Plugin-GitHash: 42badd7ae1a4e1dcb6ef89109526f9b765ca6c5b
+Implementation-Build: 42badd7ae1a4e1dcb6ef89109526f9b765ca6c5b
+

@@ -1,0 +1,634 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-build plugin="workflow-job@1360.vc6700e3136f5">
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>test</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <org.jenkinsci.plugins.workflow.libs.LibrariesAction plugin="pipeline-groovy-lib@689.veec561a_dee13">
+      <libraries/>
+    </org.jenkinsci.plugins.workflow.libs.LibrariesAction>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction plugin="pipeline-model-definition@2.2150.v4cfd8916915c">
+      <stagesUUID>e92d40c6-c138-4f90-b625-b2ece647d1f7</stagesUUID>
+      <pipelineDefs>
+        <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef plugin="pipeline-model-api@2.2150.v4cfd8916915c">
+          <stages>
+            <stages>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+                <name>build</name>
+                <branches>
+                  <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                    <name>default</name>
+                    <steps>
+                      <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                        <name>sh</name>
+                        <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                          <arguments class="linked-hash-map">
+                            <entry>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                                <key>script</key>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                                <value class="string">cp -R /var/deploydir/sca ${WORKSPACE}</value>
+                              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                            </entry>
+                          </arguments>
+                        </args>
+                      </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                    </steps>
+                  </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBranch>
+                </branches>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStage>
+            </stages>
+            <uuid>e92d40c6-c138-4f90-b625-b2ece647d1f7</uuid>
+          </stages>
+          <postBuild>
+            <conditions>
+              <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+                <condition>always</condition>
+                <branch>
+                  <name>default</name>
+                  <steps>
+                    <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                      <name>recordIssues</name>
+                      <args class="org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTNamedArgumentList">
+                        <arguments class="linked-hash-map">
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>aggregatingResults</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                              <value class="boolean">true</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-ConstantValue>
+                          </entry>
+                          <entry>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                              <key>tools</key>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTKey>
+                            <org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                              <value class="string">${[checkStyle(pattern: &quot;sca/*/checkstyle/*.xml&quot;)]}</value>
+                            </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTValue_-GStringValue>
+                          </entry>
+                        </arguments>
+                      </args>
+                    </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTStep>
+                  </steps>
+                </branch>
+              </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTBuildCondition>
+            </conditions>
+          </postBuild>
+          <agent>
+            <agentType>
+              <key>any</key>
+            </agentType>
+          </agent>
+        </org.jenkinsci.plugins.pipeline.modeldefinition.ast.ModelASTPipelineDef>
+      </pipelineDefs>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.ExecutionModelAction>
+    <io.jenkins.plugins.analysis.core.model.AggregationAction plugin="warnings-ng@10.5.1"/>
+    <io.jenkins.plugins.analysis.core.model.ResultAction plugin="warnings-ng@10.5.1">
+      <result>
+        <id>checkstyle</id>
+        <totals>
+          <totalErrorSize>549</totalErrorSize>
+          <totalHighSize>0</totalHighSize>
+          <totalNormalSize>6150</totalNormalSize>
+          <totalLowSize>0</totalLowSize>
+          <newErrorSize>0</newErrorSize>
+          <newHighSize>0</newHighSize>
+          <newNormalSize>0</newNormalSize>
+          <newLowSize>0</newLowSize>
+          <deltaErrorSize>0</deltaErrorSize>
+          <deltaHighSize>0</deltaHighSize>
+          <deltaNormalSize>0</deltaNormalSize>
+          <deltaLowSize>0</deltaLowSize>
+          <fixedSize>0</fixedSize>
+          <totalSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@11.13.0">
+                <name>HIGH</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@11.13.0">
+                <name>LOW</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@11.13.0">
+                <name>ERROR</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>549</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity plugin="analysis-model-api@11.13.0">
+                <name>NORMAL</name>
+              </edu.hm.hafner.analysis.Severity>
+              <int>6150</int>
+            </entry>
+          </totalSizeBySeverity>
+          <newSizeBySeverity>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[3]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+            <entry>
+              <edu.hm.hafner.analysis.Severity reference="../../../totalSizeBySeverity/entry[4]/edu.hm.hafner.analysis.Severity"/>
+              <int>0</int>
+            </entry>
+          </newSizeBySeverity>
+        </totals>
+        <sizePerOrigin>
+          <entry>
+            <string>checkstyle</string>
+            <int>6699</int>
+          </entry>
+        </sizePerOrigin>
+        <errors>
+          <string>Can&apos;t create fingerprints for some files:</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/applets/busybox.mksuid&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/embedded_scripts&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/shell/ash_test/ash-misc/nommu3.tests&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/scripts/gen_build_files.sh&apos; file not found</string>
+          <string>- &apos;/mnt/hdd/ys2311/build/tmp/deploy/images/qemux86-64/sca/sources/busybox/examples/shutdown-1.0/script/do_shutdown&apos; file not found</string>
+          <string>  ... skipped logging of 6679 additional errors ...</string>
+        </errors>
+        <messages>
+          <string>Ignoring &apos;aggregatingResults&apos; and ID &apos;null&apos; since only a single tool is defined.</string>
+          <string>Searching for all files in &apos;/var/jenkins_home/workspace/test-project&apos; that match the pattern &apos;sca/*/checkstyle/*.xml&apos;</string>
+          <string>Traversing of symbolic links: enabled</string>
+          <string>-&gt; found 95 files</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 73 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 95 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-image-1.0.xml</string>
+          <string>-&gt; found 150 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bashate/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bashate/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-image-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/bitbake/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/bitbake/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 58 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 34 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-image-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/checkbashism/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/checkbashism/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 35 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 513 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/cppcheck/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/cppcheck/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 2 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 150 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 453 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 4 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 7 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 3621 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/pkgqaenc/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/pkgqaenc/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 245 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 869 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 3 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-image-1.0.xml</string>
+          <string>-&gt; found 346 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/shellcheck/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 1 issue (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/shellcheck/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/3rd-party-package-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/3rd-party-package-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/busybox-1.36.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/busybox-1.36.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/libxml2-2.11.5.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/libxml2-2.11.5.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-anytree-2.11.1.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-python3-anytree-2.11.1.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-python3-systemdunitparser-0.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-bashate-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-checkbashism-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-cppcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-shellcheck-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-recipe-systemdlint-rules-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-sca-runall-1.0.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-sca-runall-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/nativesdk-z3-4.12.2.xml</string>
+          <string>-&gt; found 0 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/nativesdk-z3-4.12.2.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-image-1.0.xml</string>
+          <string>-&gt; found 10 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/ys2311-demo-image-1.0.xml&apos;</string>
+          <string>Successfully parsed file /var/jenkins_home/workspace/test-project/sca/systemdlint/checkstyle/ys2311-demo-service-1.0.xml</string>
+          <string>-&gt; found 3 issues (skipped 0 duplicates)</string>
+          <string>Successfully processed file &apos;sca/systemdlint/checkstyle/ys2311-demo-service-1.0.xml&apos;</string>
+          <string>Post processing issues on &apos;Master&apos; with source code encoding &apos;UTF-8&apos;</string>
+          <string>Creating SCM blamer to obtain author and commit information for affected files</string>
+          <string>-&gt; no SCM found</string>
+          <string>Resolving file names for all issues in workspace &apos;/var/jenkins_home/workspace/test-project&apos;</string>
+          <string>-&gt; resolved paths in source directory (0 found, 2867 not found)</string>
+          <string>Resolving module names from module definitions (build.xml, pom.xml, or Manifest.mf files)</string>
+          <string>-&gt; resolved module names for 6699 issues</string>
+          <string>Resolving package names (or namespaces) by parsing the affected files</string>
+          <string>-&gt; resolved package names of 2867 affected files</string>
+          <string>No filter has been set, publishing all 6699 issues</string>
+          <string>Creating fingerprints for all affected code blocks to track issues over different builds</string>
+          <string>-&gt; created fingerprints for 0 issues (skipped 6699 issues)</string>
+          <string>Copying affected files to Jenkins&apos; build folder &apos;/var/jenkins_home/jobs/test-project/builds/1/files-with-issues&apos;</string>
+          <string>-&gt; 0 copied, 0 not in workspace, 6699 not-found, 0 with I/O error</string>
+          <string>Repository miner is not configured, skipping repository mining</string>
+          <string>Reference build recorder is not configured</string>
+          <string>Obtaining reference build from same job (test-project)</string>
+          <string>No valid reference build found that meets the criteria (NO_JOB_FAILURE - SUCCESSFUL_QUALITY_GATE)</string>
+          <string>All reported issues will be considered outstanding</string>
+          <string>No quality gates have been set - skipping</string>
+          <string>Health report is disabled - skipping</string>
+          <string>Created analysis result for 6699 issues (found 0 new issues, fixed 0 issues)</string>
+          <string>Attaching ResultAction with ID &apos;checkstyle&apos; to build &apos;test-project #1&apos;.</string>
+        </messages>
+        <referenceBuildId></referenceBuildId>
+        <noIssuesSinceBuild>-1</noIssuesSinceBuild>
+        <successfulSinceBuild>-1</successfulSinceBuild>
+        <qualityGateStatus>INACTIVE</qualityGateStatus>
+        <sizePerSeverity/>
+        <newSizePerSeverity/>
+      </result>
+      <healthDescriptor>
+        <healthy>0</healthy>
+        <unhealthy>0</unhealthy>
+        <minimumSeverity reference="../../result/totals/totalSizeBySeverity/entry[2]/edu.hm.hafner.analysis.Severity"/>
+      </healthDescriptor>
+      <id>checkstyle</id>
+      <name></name>
+      <charset>UTF-8</charset>
+      <trendChartType>AGGREGATION_TOOLS</trendChartType>
+    </io.jenkins.plugins.analysis.core.model.ResultAction>
+  </actions>
+  <queueId>1</queueId>
+  <timestamp>1699790077819</timestamp>
+  <startTime>1699790077859</startTime>
+  <result>SUCCESS</result>
+  <duration>4923</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <execution class="org.jenkinsci.plugins.workflow.cps.CpsFlowExecution">
+    <result>SUCCESS</result>
+    <script>pipeline {
+    agent any
+
+    stages {
+        stage(&apos;build&apos;) {
+            steps {
+                sh &apos;cp -R /var/deploydir/sca ${WORKSPACE}&apos;
+            }
+        }
+    }
+    post {
+       always {
+            recordIssues aggregatingResults: true, tools: [checkStyle(pattern: &quot;sca/*/checkstyle/*.xml&quot;)]
+       }
+    }
+}</script>
+    <loadedScripts class="map"/>
+    <durabilityHint>MAX_SURVIVABILITY</durabilityHint>
+    <timings class="map">
+      <entry>
+        <string>flowNode</string>
+        <long>806654515</long>
+      </entry>
+      <entry>
+        <string>classLoad</string>
+        <long>1048220053</long>
+      </entry>
+      <entry>
+        <string>run</string>
+        <long>2837967139</long>
+      </entry>
+      <entry>
+        <string>parse</string>
+        <long>209871414</long>
+      </entry>
+      <entry>
+        <string>saveProgram</string>
+        <long>581853643</long>
+      </entry>
+    </timings>
+    <internalCalls class="sorted-set">
+      <string>hudson.model.Result.fromString</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.SyntheticStageNames.postBuild</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.createStepsBlock</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.getRestartedStage</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateJobProperties</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.Utils.updateRunAndJobActions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.getScript</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.hasScmContext</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.isDoCheckout</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.agent.impl.Any.reuseRootAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.getDeclarativeAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.hasAgent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.populateMap</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Agent.rawClosure</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.BuildCondition.getCombinedResult</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.BuildCondition.orderedConditionNames</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.PostBuild.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.PostBuild.closureForSatisfiedCondition</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.agent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.astUUID</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.environment</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.getEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.hasSatisfiedConditions</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.libraries</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.options</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.parameters</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.post</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.tools</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Root.triggers</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.agent</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.environment</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.getEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.getMatrixCellEnvVars</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.input</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.name</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.options</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.parallel</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.post</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.steps</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.tools</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stage.when</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.&lt;init&gt;</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.Stages.stages</string>
+      <string>org.jenkinsci.plugins.pipeline.modeldefinition.model.StepsBlock.closure</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.hasNext</string>
+      <string>org.jenkinsci.plugins.workflow.cps.persistence.IteratorHack$Itr.next</string>
+      <string>org.jenkinsci.plugins.workflow.job.WorkflowRun.result</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.currentResult</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.rawBuild</string>
+      <string>org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper.result</string>
+    </internalCalls>
+    <sandbox>true</sandbox>
+    <iota>17</iota>
+    <head>1:17</head>
+    <done>true</done>
+    <resumeBlocked>false</resumeBlocked>
+    <storageDir>workflow-completed</storageDir>
+  </execution>
+  <completed>true</completed>
+  <checkouts class="hudson.util.PersistedList"/>
+</flow-build>
