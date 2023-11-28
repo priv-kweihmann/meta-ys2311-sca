@@ -20,6 +20,7 @@
         stage(&apos;build&apos;) {
             steps {
                 sh &apos;cp -R /var/deploydir/sca ${WORKSPACE}&apos;
+                sh &apos;find ${WORKSPACE} -name \&quot;*.xml\&quot; -exec sed -i \&quot;s#${DEPLOYDIR}#${WORKSPACE}/#g\&quot; {} \\;&apos;
             }
         }
     }
